@@ -1,0 +1,9 @@
+spring-cloud eureka
+1要保证jdk版本-sringboot版本-springmaven版本匹配
+2application的格式要注意，yml以及缩进
+    否则无法正确识别，会出现Error Creating bean with name 等错误
+3#服务名称
+spring:
+  application:
+    name: eureka-7001
+为必选项
