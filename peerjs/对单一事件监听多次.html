@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3> 尝试对一个conn声明多次监听收到数据事件（conn.on("data")</h3>
+       
+        <br/>
+        <img src="./对单一事件监听多次_代码.png">
+        <br/>
+        <h3>结果可以成功触发多次响应，由此可见conn的data事件默认声明之间不会互相覆盖，而是按照顺序执行</h3>
+        <br/>
+        <img src="./对单一事件监听多次.png">
+
+    </body>
+</html>
